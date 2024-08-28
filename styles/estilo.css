@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+:root {
+    --cor0: #000000;
+    --cor1: #FFFBFC;
+    --cor2: #F15025;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFFBFC;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100dvh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.title {
+    line-height: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+
+a:hover {
+    color: #F15025;
+}
+
+.contato {
+    border: 2px solid #F15025;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contato:hover {
+    background-color: #F15025;
+    color: aliceblue;
+
+}
+
+.titulo img {
+    height: 60px;
+}
+.apresent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.apresent h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    color: #F15025;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.apresent p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+
+.apresent img {
+    height: 250px;
+    margin-top: 80px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.descri {
+
+    background-color: #F15025;
+    margin-top: 200px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+
+
+    h1 {
+        text-align: center;
+        padding: 15px;
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 30px;
+        color: #000000;
+       
+    }
+
+    p {
+        margin: auto;
+        text-align: center;
+        font-size: 20px;
+        width: 440px;
+        font-weight: bold;
+        padding: 15px;
+        padding-bottom: 60px;
+        text-indent: 30px;
+        line-height: 1.4em;
+        color: #FFFBFC;
+    }
+
+}
+
+article {
+    text-align: center;
+    background-color: #000000;
+    color: #F15025;
+    font-family: "New Amsterdam", sans-serif;
+    padding: 15px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+    height: 150px;
+    border-radius: 7px;
+    font-size: 30px;
+
+    .tecn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .logo,
+    img {
+        margin-left: 25px;
+        height: 45px;
+    }
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+
+    h2 {
+        padding: 15px;
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 40px;
+        color: #000000;
+        text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .projet {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        align-items: center;
+        
+    }
+    .proj-1{
+            background-image: url(../img/proj-dolar.png); 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;   
+            }
+    .proj-2{
+        background-image: url(../img/proj-imc.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;     
+            }
+    .proj-3{
+        background-image: url(../img/proj-land.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;      
+            }
+    .proj-4{
+        background-image: url(../img/proj-link.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;      
+            }
+    .proj-5{
+        background-image: url(../img/proj-login.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+            }
+    .proj-6{
+        background-image: url(../img/proj-refri.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+            }
+    .proj-7{
+        background-image: url(../img/xdev.png);  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+            }
+
+   
+} 
+#item {
+        height: 260px;
+        width: 500px;
+        margin: 15px;
+        text-align: center;
+        transition: 1s ease-in;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 15px;
+        flex: 1 0 350px;
+        
+        a{
+            display: none;
+            border: 2px solid #000000;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color: #000000;
+            width: 150px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        p{
+            display: none;
+            font-family:"New Amsterdam", sans-serif ;
+            padding: 5px;
+            text-indent: 30px;
+            
+        }
+        h1{
+            padding: 15px;
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 40px;
+        color: #F15025;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+        }
+    }
+    @keyframes anima{
+        from{
+            top: 100%;
+            opacity: 0;
+        }
+    }
+    #item:hover{
+        background-color: #F15025;
+        background-image: none;
+        animation: anima 1s ease-in-out 1;
+        a{
+            display: block;
+            
+        }
+        p{
+            display: block;
+            
+        }
+        h1{
+            opacity: 0;
+        }
+    }
+    span{
+        color: #FFFBFC;
+        font-family:"New Amsterdam", sans-serif ;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
