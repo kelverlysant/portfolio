@@ -159,7 +159,8 @@ article {
 
     .logo,
     img {
-        margin-left: 25px;
+        
+        margin: auto;
     }
 }
 
