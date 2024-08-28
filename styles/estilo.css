@@ -20,6 +20,21 @@ body, html {
     height: 100vh;
     
 }
+body::-webkit-scrollbar {
+    height: 3px;
+    width: 11px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;
+    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #F15025;   
+    border-radius: 50px;       
+    border: 1px solid #000000; 
+  }
 
 header {
     display: flex;
@@ -250,6 +265,7 @@ main {
             width: 150px;
             margin: auto;
             margin-top: 10px;
+            cursor: pointer;
         }
         p{
             display: none;
