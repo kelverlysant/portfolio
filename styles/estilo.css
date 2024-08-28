@@ -13,12 +13,12 @@
 }
 
 
-body {
+body, html {
     background-color: #FFFBFC;
     color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 100dvh;
-    width: 100vw;
+    height: 100vh;
+    
 }
 
 header {
@@ -75,7 +75,6 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding-bottom: 55px;
-    width: 100%;
 }
 
 .apresent h1 {
@@ -94,26 +93,24 @@ a:hover {
     font-family: monospace;
     font-size: 1em;
     color: #000000;
-    width: 1px;
 }
 
 
 
 .apresent img {
-    height: 250px;
+    height: 240px;
     margin-top: 80px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.descri {
+section.descri {
 
     background-color: #F15025;
     margin-top: 200px;
-    padding: 35px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-
 
     h1 {
         text-align: center;
@@ -132,7 +129,7 @@ a:hover {
         font-weight: bold;
         padding: 15px;
         padding-bottom: 60px;
-        text-indent: 30px;
+        text-indent: 15px;
         line-height: 1.4em;
         color: #FFFBFC;
     }
@@ -151,7 +148,7 @@ article {
     bottom: 25px;
     height: 150px;
     border-radius: 7px;
-    font-size: 30px;
+    font-size: 20px;
 
     .tecn {
         display: flex;
@@ -163,13 +160,13 @@ article {
     .logo,
     img {
         margin-left: 25px;
-        height: 45px;
     }
 }
 
 main {
     text-align: center;
     margin-top: 50px;
+    width: 100%;
 
     h2 {
         padding: 15px;
@@ -241,6 +238,7 @@ main {
         border-radius: 15px;
         flex: 1 0 350px;
         
+        
         a{
             display: none;
             border: 2px solid #000000;
@@ -256,13 +254,14 @@ main {
             display: none;
             font-family:"New Amsterdam", sans-serif ;
             padding: 5px;
-            text-indent: 30px;
+            text-indent: 3px;
+
             
         }
         h1{
             padding: 15px;
         font-family: "New Amsterdam", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         color: #F15025;
         position: relative;
         top: 50%;
@@ -311,7 +310,7 @@ main {
             padding: 15px;
             text-align: center;
         font-family: "New Amsterdam", sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         color: #F15025;
         text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         
