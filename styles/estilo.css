@@ -316,6 +316,34 @@ main {
         font-weight: bold;
         font-size: 1.5em;
     }
+
+    .projetos-reais{
+        h1{
+            text-align: center;
+            margin-top: 120px;
+            margin-bottom: 50px;
+            font-family: "New Amsterdam", sans-serif;
+            font-size: 35px;
+            font-weight: 800;
+            color: #F15025;
+            text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+
+    .clientes {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+      
+        img {
+          flex: 0 1 200px;
+          height: 120px;
+          margin: 0 auto;
+        }
+      }
+
+      
     footer{
         display: flex;
         flex-direction: column;
