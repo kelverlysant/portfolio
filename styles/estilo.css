@@ -379,10 +379,14 @@ main {
                 height: 30px;
             }
         }
+        .logo img:hover{
+            height: 35px;
+            transition: 0.6s;
+        }
         p{
             text-align: center;
             color: #F15025;
             padding: 10px;
-            margin-bottom: 15px;
+            margin:25px 15px;
         }
     }
