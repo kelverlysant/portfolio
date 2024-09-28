@@ -241,7 +241,12 @@ main {
         background-repeat: no-repeat;
         background-size: cover;    
             }
-
+    .proj-8{
+        background-image: url(../img/proj-klshost.png);  
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }        
    
 } 
 #item {
