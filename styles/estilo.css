@@ -243,6 +243,12 @@ main {
             }
     .proj-8{
         background-image: url(../img/proj-klshost.png);  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }        
+    .proj-9{
+        background-image: url(../img/proj-blog.png);  
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;    
