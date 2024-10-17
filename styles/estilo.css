@@ -21,12 +21,12 @@ body, html {
     
 }
 body::-webkit-scrollbar {
-    height: 3px;
+    height: 0px;
     width: 11px; 
   }
   
   body::-webkit-scrollbar-track {
-    background: transparent;
+    background: #cccccc7a;
     
   }
   
@@ -167,14 +167,11 @@ article {
 
     .tecn {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
         padding: 15px;
     }
 
     .logo,
     img {
-        
         margin: auto;
     }
 }
@@ -388,11 +385,8 @@ main {
             img {
                 margin-left: 25px;
                 height: 30px;
+                transition: 0.6s;
             }
-        }
-        .logo img:hover{
-            height: 35px;
-            transition: 0.6s;
         }
         p{
             text-align: center;
