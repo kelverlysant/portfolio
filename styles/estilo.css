@@ -249,7 +249,13 @@ main {
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;    
-    }        
+    }   
+    .proj-10{
+        background-image: url(../img/proj-arquit.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }     
    
 } 
 #item {
