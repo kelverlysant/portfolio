@@ -157,7 +157,7 @@ article {
     color: #F15025;
     font-family: "New Amsterdam", sans-serif;
     padding: 15px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     position: relative;
     bottom: 25px;
@@ -167,12 +167,10 @@ article {
 
     .tecn {
         display: flex;
-        padding: 15px;
-    }
-
-    .logo,
-    img {
-        margin: auto;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        
     }
 }
 
