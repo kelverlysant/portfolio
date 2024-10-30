@@ -99,7 +99,7 @@ a:hover {
     font-size: 45px;
     font-weight: 800;
     color: #F15025;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-shadow: rgba(0, 0, 0, 0.137) 0px 3px 8px;
 }
 
 .apresent p {
@@ -184,9 +184,10 @@ main {
     h2 {
         padding: 15px;
         font-family: "New Amsterdam", sans-serif;
+        font-weight: 900;
         font-size: 40px;
         color: #000000;
-        text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-shadow: rgba(0, 0, 0, 0.233) 0px 3px 8px;
     }
 
     .projet {
@@ -294,24 +295,18 @@ main {
         font-family: "New Amsterdam", sans-serif;
         font-size: 30px;
         color: #F15025;
+        text-shadow: rgba(0, 0, 0, 0.233) 0px 3px 8px;
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -70%);
-        text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        
         }
     }
-    @keyframes anima{
-        from{
-            top: 100%;
-            opacity: 0;
-        }
-    }
+    
     #item:hover{
         background-color: #F15025;
         background-image: none;
-        animation: anima 1s ease-in-out 1;
+        animation: 0.5s all;
         a{
             display: block;
             
@@ -337,10 +332,9 @@ main {
             margin-top: 120px;
             margin-bottom: 50px;
             font-family: "New Amsterdam", sans-serif;
-            font-size: 35px;
-            font-weight: 800;
+            font-weight: 900;
             color: #F15025;
-            text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            text-shadow: rgba(0, 0, 0, 0.144) 0px 3px 8px;
         }
     }
 
@@ -369,17 +363,18 @@ main {
             text-align: center;
             padding: 1px;
             font-family: "New Amsterdam", sans-serif;
-            font-size: 40px;
+            font-size: 30px;
             color: #F15025;
-            text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            text-shadow: rgba(0, 0, 0, 0.154) 0px 3px 8px;
         
         }
         h4{
             text-align: center;
             font-family: "New Amsterdam", sans-serif;
-            font-size: 40px;
+            font-size: 30px;
             color: #000000;
-            text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            text-shadow: rgba(0, 0, 0, 0.154) 0px 3px 8px;
+
         }
         .cont{
             display: flex;
