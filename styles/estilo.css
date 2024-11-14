@@ -196,6 +196,8 @@ main {
         flex-direction: row;
         flex-flow: wrap;
         align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
         
     }
     .proj-1{
