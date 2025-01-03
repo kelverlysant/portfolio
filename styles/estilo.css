@@ -200,9 +200,13 @@ main {
         margin: 0 auto;
         
     }
+    .proj{
+        background-image: url(../img/proj-dolar.png); 
+        background-repeat: no-repeat;
+        background-size: cover;   
+        }
     .proj-1{
-            background-image: url(../img/proj-dolar.png); 
-            background-position: center;
+            background-image: url(../img/proj-card.png); 
             background-repeat: no-repeat;
             background-size: cover;   
             }
