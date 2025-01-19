@@ -215,51 +215,28 @@ main {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;     
-            }
+            }     
     .proj-3{
-        background-image: url(../img/proj-land.png); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;      
-            }
-    .proj-4{
-        background-image: url(../img/proj-link.png); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;      
-            }
-    .proj-5{
-        background-image: url(../img/proj-login.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;       
-            }
-    .proj-6{
-        background-image: url(../img/proj-refri.png); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;        
-            }
-    .proj-7{
-        background-image: url(../img/xdev.png);  
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;    
-            }
-    .proj-8{
-        background-image: url(../img/proj-klshost.png);  
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;    
-    }        
-    .proj-9{
         background-image: url(../img/proj-blog.png);  
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;    
     }   
-    .proj-10{
+    .proj-4{
         background-image: url(../img/proj-arquit.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }     
+   
+    .proj-5{
+        background-image: url(../img/proj-todolist.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }     
+    .proj-6{
+        background-image: url(../img/proj-senha.png); 
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;   
