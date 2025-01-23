@@ -217,8 +217,8 @@ main {
         background-size: cover;     
             }     
     .proj-3{
-        background-image: url(../img/proj-blog.png);  
-        background-position: top;
+        background-image: url(../img/proj-daynotes.png);  
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;    
     }   
